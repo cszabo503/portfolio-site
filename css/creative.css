@@ -7,8 +7,8 @@
 
  .wrapper {
   max-width: 100%;
-  margin: 1em auto;
-  padding: 3em;
+  margin: 0 auto;
+  padding: 1em;
  }
 
 
@@ -50,24 +50,36 @@ body {
     font-size: 100%;
 }
 
+.row {
+  margin: 0;
+  width: 100%;
+  max-width: 100rem;
+}
+
 
 /* ---------------------------------------------- */
 /* Site Header / Navigation --------------------- */
 /* ---------------------------------------------- */
 
-.site-title{
+.site-title {
   font-size: 1.5em;
   text-transform: uppercase;
   text-align: left;
+  padding: 0.375em;
 
 }
 
-.site-nav{
+.site-nav {
   font-size: 0.750em;
   text-transform: uppercase;
-  text-align: right;
-  width: 80%;
-  margin: 0;
+  text-align: center;
+  margin-top: 0.875em;
+  display: inline;
+  /*vertical-align: middle;*/
+}
+
+.trigger {
+  vertical-align: right;
 }
 
 .menu-icon{
@@ -75,10 +87,10 @@ body {
 }
 
 
-<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+/*<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
-      <a href="#" class="menu-icon">
+      <a href="#" class="menu-icon">*/
 
 
 

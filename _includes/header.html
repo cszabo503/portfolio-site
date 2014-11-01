@@ -3,9 +3,9 @@
   <div class="wrapper">
 
     <div class="row">
-      <a class="site-title large-4" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <a class="site-title columns medium-4 large-4" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-       <nav class="site-nav">
+       <nav class="site-nav columns medium-8 large-8">
           <a href="#" class="menu-icon">
             <!-- <div><a href="#"><p>Home</p></a></div>
             <div><a href="#"><p>About</p></a></div>
@@ -19,7 +19,8 @@
           </a>
 
           <div class="row">
-            <div class="trigger large-2">
+            <div class="trigger columns medium-6 large-9"></div>
+            <div class="trigger columns medium-2 large-1">
               {% for page in site.pages %}
                 {% if page.title %}
                 <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -27,7 +28,7 @@
               {% endfor %}
             </div>
 
-            <div class="trigger large-2">
+            <div class="trigger columns medium-2 large-1">
               {% for page in site.pages %}
                 {% if page.title %}
                 <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -35,7 +36,7 @@
               {% endfor %}
             </div>
 
-            <div class="trigger large-2">
+            <div class="trigger columns medium-2 large-1">
               {% for page in site.pages %}
                 {% if page.title %}
                 <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

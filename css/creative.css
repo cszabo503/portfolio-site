@@ -1,0 +1,93 @@
+
+/* ---------------------------------------------- */
+/* Styles --------------------------------------- */
+/* ---------------------------------------------- */
+
+/* Main Wrapper */
+
+ .wrapper {
+  max-width: 100%;
+  margin: 1em auto;
+  padding: 3em;
+ }
+
+
+/**
+ * Wrapper
+ */
+/*.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
+*/
+
+
+/**
+ * Clearfix
+ */
+.wrapper:after, .footer-col-wrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+div {
+      border: 2px solid black;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-style: lighter;
+    font-size: 100%;
+}
+
+
+/* ---------------------------------------------- */
+/* Site Header / Navigation --------------------- */
+/* ---------------------------------------------- */
+
+.site-title{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: left;
+
+}
+
+.site-nav{
+  font-size: 0.750em;
+  text-transform: uppercase;
+  text-align: right;
+  width: 80%;
+  margin: 0;
+}
+
+.menu-icon{
+
+}
+
+
+<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+
+
+
+
+
+
+
+
+
+
+
+

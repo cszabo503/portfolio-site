@@ -2,11 +2,13 @@
 layout: default
 ---
 
+ <img class="intro-pic" src="/photos/intro-pic.jpg"/>
+
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
+  <ul class="post-list small-block-grid-1 medium-block-grid-3 large-block-grid-4">
     {% for post in site.posts %}
       <li>
         <img class="cover-photo" src="{{ post.cover-photo}}"/>

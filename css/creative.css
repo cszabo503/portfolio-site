@@ -116,7 +116,8 @@ h1 {
   font-family: Josefin Sans;
   font-weight: normal;
   font-size: 2em;
-  text-transform: uppercase; 
+  text-transform: uppercase;
+  color: #12a9b0; 
 }
 
 h2 {
@@ -127,6 +128,7 @@ h2 {
   margin-top: 0.7em;
   margin-bottom: 0;
   line-height: .7em;
+  color: #12a9b0;
 }
 
 div {
@@ -154,9 +156,11 @@ body {
   font-size: 0.8em;
 }
 
-.post-list li {
-  vertical-align: center;
-}
+/*li {
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+}*/
 
 /* ---------------------------------------------- */
 /* Site Footer ---------------------------------- */
@@ -178,8 +182,23 @@ vertical-align: middle;
 /* Cover Photos --------------------------------- */
 /* ---------------------------------------------- */
 
+
+.post {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 .cover-photo {
-  width: 300px;
+  width: 100%;
+}
+
+.post-title {
+  margin-top: 0.7em;
+  margin-bottom: 0;
+}
+
+.post-content {
+  padding-right: 3em;
 }
 
 

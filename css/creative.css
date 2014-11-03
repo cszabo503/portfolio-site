@@ -39,16 +39,17 @@
   display: table;
   clear: both; }
 
-div {
-      border: 2px solid black;
+
+.row {
+  margin: 0;
+  width: 100%;
+  max-width: 100rem;
 }
 
-body {
-    margin: 0;
-    font-family: Helvetica;
-    font-style: lighter;
-    font-size: 100%;
-}
+
+/* ---------------------------------------------- */
+/* Links ---------------------------------------- */
+/* ---------------------------------------------- */
 
 a {
   color: #d3215d;
@@ -60,12 +61,6 @@ a:hover {
   color: #e3747a;
 }
 
-
-.row {
-  margin: 0;
-  width: 100%;
-  max-width: 100rem;
-}
 
 
 /* ---------------------------------------------- */
@@ -114,18 +109,54 @@ a:hover {
 
 
 /* ---------------------------------------------- */
-/* Home Page ------------------------------------ */
+/* Basic Styles --------------------------------- */
 /* ---------------------------------------------- */
+
+h1 {
+  font-family: Josefin Sans;
+  font-weight: normal;
+  font-size: 2em;
+  text-transform: uppercase; 
+}
 
 h2 {
   font-family: Josefin Sans;
   font-weight: lighter;
   font-size: 1.8em;
-  text-transform: lowercase; 
-
+  text-transform: lowercase;
+  margin-top: 0.7em;
+  margin-bottom: 0;
+  line-height: .7em;
 }
 
+div {
+      border: 2px solid black;
+}
 
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-style: lighter;
+    font-size: 100%;
+}
+
+.home {
+  margin: 0 auto;
+}
+
+.post-list {
+  margin: 0 auto;
+}
+
+.post-meta {
+  font-family: Judson;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.post-list li {
+  vertical-align: center;
+}
 
 /* ---------------------------------------------- */
 /* Site Footer ---------------------------------- */

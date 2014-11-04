@@ -11,6 +11,11 @@
   padding: 0.750em;
  }
 
+ .wrapper2 {
+  max-width: 100%;
+  margin: 0 auto;
+ }
+
 
 /**
  * Wrapper
@@ -84,19 +89,23 @@ a:hover {
 .site-nav {
   font-size: 0.750em;
   text-transform: uppercase;
-  text-align: center;
   margin-top: 0.875em;
-  display: inline;
-  /*vertical-align: middle;*/
 }
 
-.trigger {
-  vertical-align: right;
+.page-link {
+  display: inline-block;
+  padding-right: 1em;
+  vertical-align: middle;
 }
 
-.menu-icon{
 
+@media only screen and (min-width: 40.063em) {
+  .site-nav {
+    text-align: right; }
 }
+
+
+
 
 
 
@@ -177,17 +186,17 @@ body {
   position: absolute;
   z-index: 1;
   width: 100%;
-  height: 606px;
+  /*height: 622px;*/
 }
 
 
 /* ---------------------------------------------- */
-/* Cover Photos --------------------------------- */
+/* Posts ---------------------------------------- */
 /* ---------------------------------------------- */
 
 
 .post {
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -202,6 +211,11 @@ body {
 
 .post-content {
   padding-right: 3em;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .post {
+    max-width: 80%; }
 }
 
 
@@ -280,7 +294,6 @@ vertical-align: middle;
     width: calc(100% - (30px / 2)); } }
 
 */
-
 
 
 

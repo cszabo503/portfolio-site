@@ -239,8 +239,17 @@ vertical-align: middle;
 .contact-list,
 .social-media-list {
   list-style: none;
-  margin-left: 0; }
+  margin-left: 0; 
+}
 
+.social-media-list img{
+  max-width: 15%;
+  float:right;
+  padding-right: .5em;
+}
+
+
+<ul class="social-media-list">
 
 
 

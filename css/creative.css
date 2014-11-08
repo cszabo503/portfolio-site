@@ -7,6 +7,7 @@
 
  .wrapper {
   max-width: 100%;
+  /*margin: 0 2em 0 2em;*/
   margin: 0 auto;
   /*padding: 0.750em;*/
  }
@@ -291,6 +292,27 @@ h1.page-heading {
     max-width: 80%; }
 }
 
+
+
+/* ---------------------------------------------- */
+/* About Page ----------------------------------- */
+/* ---------------------------------------------- */
+
+img.profile{
+  /*margin: 0 1.4em 0 1.4em;*/
+}
+
+h2.profile{
+  /*margin: .5em .8em .5em .9em;*/
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+
+p.profile-body{
+  /*margin: .5em 0 1em 1.4em;*/
+  font-family: Georgia;
+  line-height: 1.5em;
+}
 
 
 

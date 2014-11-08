@@ -7,6 +7,17 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
+  <div id="categories">
+    <div class="Work">
+      <h1 class="filter">Work</h1>
+    </div>
+    <!-- <div class="Work w2">Work</div> -->
+    <div class="School">
+      <h1 class="filter">School</h1>
+    </div>
+    <!-- <div class="School w2">School</div> -->
+  </div>
+
   <ul class="post-list small-block-grid-1 medium-block-grid-3 large-block-grid-4">
     {% for post in site.posts %}
       <li>
@@ -26,3 +37,36 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+
+<script> 
+
+var $container = $('#categories');
+// init
+$container.isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+
+
+var $container = $('#categories').isotope({
+  getSortData: {
+    name: '.filter', // text from querySelector
+    category: '[data-category]', // value of attribute
+    weight: function( itemElem ) { // function
+      var weight = $( itemElem ).find('.weight').text();
+      return parseFloat( weight.replace( /[\(\)]/g, '') );
+    }
+  }
+});
+
+
+weight: function( itemElem ) {
+  // get text of .weight element
+  var weight = $( itemElem ).find('.weight').text();
+  // replace parens (), and parse as float
+  return parseFloat( weight.replace( /[\(\)]/g, '') );
+}
+
+
+</script>

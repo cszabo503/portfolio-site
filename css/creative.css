@@ -200,10 +200,18 @@ body {
 
 .tagline h1 {
   color: white;
-  padding: 5em 5em;
+  padding: 1em 1em;
+  font-size: 0.750em;
+
   /*vertical-align: middle;*/
   /*width: 100%;*/
 }
+
+@media only screen and (min-width: 40.063em) {
+  .tagline {
+    font-size: 2em; }
+}
+
 
 .tagline {
   text-align: center;
@@ -211,6 +219,8 @@ body {
   position: absolute;
   z-index: 1;
   width: 100%;
+  /*vertical-align: middle;*/
+  /*top: 60%;*/
   /*height: 622px;*/
 }
 

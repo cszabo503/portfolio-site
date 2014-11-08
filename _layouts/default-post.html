@@ -27,7 +27,7 @@
 
     <script>
 
-      // $(document).foundation({tab: {toggleable: false}});
+      $(document).foundation({tab: {toggleable: false}});
 
 
       $(document).foundation({
@@ -44,18 +44,23 @@
           }
       });
 
+      $(document.body).on("open.fndtn.clearing", function(event) {
+  console.info("About to open thumbnail with src ", $('img', event.target).attr('src'));
+});
+
   //     {
   // // specify the classes or IDs will close clearing when clicked.
   // close_selectors : '.clearing-close',
 
   // // specify the classes or IDs that will open clearing when clicked, defaults to the entire li element
-  // open_selectors : '',
+  // open_selectors : 'li.clearing-featured-img',
 
   // // specify the classes or IDs that will be skipped in carousel
   // skip_selector : '',
 
   // touch_label : '&larr;&nbsp;Swipe to Advance&nbsp;&rarr;'
   //     }
+
 
     </script>
 

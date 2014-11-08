@@ -330,10 +330,25 @@ vertical-align: middle;
   opacity: 0.6;
 }
 
-/*@media only screen and (min-width: 40.063em) {
-  .contact-list, .social-media-list{
-    text-align: center; }
-}*/
+@media only screen and (min-width: 40.063em) {
+  .contact-list, .footer-col-2, .social-media-list{
+    text-align: left;
+    margin: 0;}
+}
+
+
+@media only screen and (min-width: 40.063em) {
+   .social-media-list img{
+    max-width: 13%;
+  }
+}
+
+
+@media only screen and (min-width:64.063em){
+  .contact-list, .social-media-list, .footer-col-2{
+    text-align: left;
+    margin: 0; }
+}
 
 
 

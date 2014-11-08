@@ -287,6 +287,10 @@ h1.page-heading {
   padding-right: 3em;
 }
 
+article.post-content {
+  padding: 0;
+}
+
 @media only screen and (min-width: 40.063em) {
   .post {
     max-width: 80%; }
@@ -299,11 +303,12 @@ h1.page-heading {
 /* ---------------------------------------------- */
 
 img.profile{
+  width: 100%;
   /*margin: 0 1.4em 0 1.4em;*/
 }
 
-h2.profile{
-  /*margin: .5em .8em .5em .9em;*/
+h2.profile-header{
+  margin: 1.5rem .2rem 1.5rem .4rem;
   font-size: 1.5em;
   line-height: 1.3em;
 }

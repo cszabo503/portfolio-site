@@ -8,7 +8,7 @@
  .wrapper {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0.750em;
+  /*padding: 0.750em;*/
  }
 
  .wrapper2 {
@@ -73,7 +73,8 @@ a:hover {
 /* ---------------------------------------------- */
 
 .site-header {
-  background-color: #002f43;
+  background-color: #101010;
+  /*background-color: #eeeeee;*/
   font-family: Josefin Sans;
   font-weight: lighter; 
 }
@@ -83,6 +84,9 @@ a:hover {
   text-transform: uppercase;
   text-align: left;
   padding: 0.375em;
+  border: 2px solid black;
+  float: left;
+  vertical-align: middle;
 
 }
 
@@ -90,6 +94,7 @@ a:hover {
   font-size: 0.750em;
   text-transform: uppercase;
   margin-top: 0.875em;
+  border: 2px solid black;
 }
 
 .page-link {
@@ -104,9 +109,29 @@ a:hover {
     text-align: right; }
 }
 
+.site-title,
+.site-nav a{
+  color: #ffffff;
+  vertical-align: middle;
+}
 
+img.site-title-logo {
+  width: 3rem;
+  border: 2px solid black;
+  float: left;
+}
 
+a.site-title-logo {
+  padding-left: 0.625rem;
+  padding-right: 0;
+}
 
+@media only screen and (min-width: 40.063em) {
+  img.site-title-logo {
+    width: 3rem;
+    float: left;
+  }
+}
 
 
 /* ---------------------------------------------- */
@@ -249,7 +274,14 @@ vertical-align: middle;
 }
 
 
-<ul class="social-media-list">
+.social-media-list img:hover{
+  opacity: 0.6;
+}
+
+/*@media only screen and (min-width: 40.063em) {
+  .contact-list, .social-media-list{
+    text-align: center; }
+}*/
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title:  cupcake tiramisu
 date:   2014-11-28
-categories: Work
+categories: work
 cover-photo: /photos/kitten-7.jpg
 ---
 

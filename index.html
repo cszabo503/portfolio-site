@@ -7,20 +7,27 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
-  <div id="categories">
+    <div id="categories" class="button-group">
+      <button data-filter="*">show all</button>
+      <button data-filter=".work">work</button>
+      <button data-filter=".school">school</button>
+  <!-- <div id="categories">
     <div class="Work">
       <h1 class="filter">Work</h1>
     </div>
-    <!-- <div class="Work w2">Work</div> -->
+    <div class="Work w2">Work</div>
     <div class="School">
       <h1 class="filter">School</h1>
-    </div>
+    </div> -->
     <!-- <div class="School w2">School</div> -->
   </div>
 
-  <ul class="post-list small-block-grid-1 medium-block-grid-3 large-block-grid-4">
+
+
+<!-- <div id="containter">  --> 
+  <ul id="containter" class="js-isotope post-list small-block-grid-1 medium-block-grid-3 large-block-grid-4">
     {% for post in site.posts %}
-      <li>
+      <li class="item {{post.categories}}">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="cover-photo" src="{{ post.cover-photo}}"/></a>
         
         <h2>
@@ -33,40 +40,61 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+<!-- </div> -->
+
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="isotope/isotope.pkgd.min.js"></script>
+<script src="js/foundation.min.js"></script>
+
+
 <script> 
 
-var $container = $('#categories');
-// init
-$container.isotope({
+// init Isotope
+var $container = $('#container').isotope({
   // options
-  itemSelector: '.item',
-  layoutMode: 'fitRows'
+  itemSelector: '.item'
+});
+// filter items on button click
+$('#categories').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  console.log(filterValue)
+  $container.isotope({ filter: '.work' });
 });
 
 
-var $container = $('#categories').isotope({
-  getSortData: {
-    name: '.filter', // text from querySelector
-    category: '[data-category]', // value of attribute
-    weight: function( itemElem ) { // function
-      var weight = $( itemElem ).find('.weight').text();
-      return parseFloat( weight.replace( /[\(\)]/g, '') );
-    }
-  }
-});
+
+// var $container = $('#categories');
+// // init
+// $container.isotope({
+//   // options
+//   itemSelector: '.item',
+//   layoutMode: 'fitRows'
+// });
 
 
-weight: function( itemElem ) {
-  // get text of .weight element
-  var weight = $( itemElem ).find('.weight').text();
-  // replace parens (), and parse as float
-  return parseFloat( weight.replace( /[\(\)]/g, '') );
-}
+// var $container = $('#categories').isotope({
+//   getSortData: {
+//     name: '.filter', // text from querySelector
+//     category: '[data-category]', // value of attribute
+//     weight: function( itemElem ) { // function
+//       var weight = $( itemElem ).find('.weight').text();
+//       return parseFloat( weight.replace( /[\(\)]/g, '') );
+//     }
+//   }
+// });
+
+
+// weight: function( itemElem ) {
+//   // get text of .weight element
+//   var weight = $( itemElem ).find('.weight').text();
+//   // replace parens (), and parse as float
+//   return parseFloat( weight.replace( /[\(\)]/g, '') );
+// }
 
 
 </script>

@@ -207,10 +207,12 @@ body {
   /*width: 100%;*/
 }
 
-@media only screen and (min-width: 40.063em) {
+/*@media only screen and (min-width: 40.063em) {
   .tagline {
-    font-size: 2em; }
-}
+    font-size: 2em;
+    top: 70%;
+  }
+}*/
 
 
 .tagline {
@@ -219,15 +221,34 @@ body {
   position: absolute;
   z-index: 1;
   width: 100%;
-  /*vertical-align: middle;*/
-  /*top: 60%;*/
-  /*height: 622px;*/
+  top: 18%;
+  
 }
 
 h1.page-heading {
   text-align: center;
   padding: 1rem 0;
 }
+
+
+@media only screen and (min-width: 40.063em) {
+  .tagline {
+    font-size: 1em;
+    top: 20%;
+    padding: 1em;
+  }
+}
+
+
+@media only screen and (min-width:64.063em){
+  .tagline {
+    font-size: 2em;
+    top: 35%;
+    padding: 1.5em;
+  }
+
+}
+
 
 
 /* ---------------------------------------------- */

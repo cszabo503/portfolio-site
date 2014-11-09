@@ -47,10 +47,15 @@
 
 
 .row {
-  margin: 0;
-  width: 100%;
-  max-width: 100rem;
+  /*width: 100%;*/
+  max-width: 100%;
+  margin: 0 auto;
 }
+
+/*.row .row {
+  max-width: 100%;
+  margin: 0 auto;
+}*/
 
 
 /* ---------------------------------------------- */
@@ -152,7 +157,7 @@ h2 {
   font-weight: lighter;
   font-size: 1.8em;
   text-transform: lowercase;
-  margin-top: 0.7em;
+  /*margin-top: 0.7em;*/
   margin-bottom: 0;
   line-height: .7em;
   color: #12a9b0;
@@ -263,6 +268,13 @@ h1.page-heading {
 .school { width: 25%; }
 /*.school.w2 { width: 50%; }*/
 
+li.item {
+  padding: 2.5em 1em 0 1em;
+}
+
+.button-group {
+  padding-top: 1.5em;
+}
 
 /* ---------------------------------------------- */
 /* Posts ---------------------------------------- */
@@ -308,15 +320,37 @@ img.profile{
 }
 
 h2.profile-header{
-  margin: 1.5rem .2rem 1.5rem .4rem;
+  /*margin: 1.5rem .2rem 1.5rem .4rem;*/
   font-size: 1.5em;
   line-height: 1.3em;
+  margin: .5em 0 .5em 0;
+  display: inline-block;
 }
 
 p.profile-body{
-  /*margin: .5em 0 1em 1.4em;*/
+  margin-top: 1em;
   font-family: Georgia;
   line-height: 1.5em;
+  display: inline-block;
+  /*margin: 2em 1em 0 1em;*/
+}
+
+@media only screen and (min-width: 40.063em) {
+   img.profile {
+    max-width: 70%;}
+}
+
+@media only screen and (min-width: 64.063em) {
+   img.profile {
+    max-width: 35%;}
+}
+
+@media only screen and (min-width: 64.063em){
+  h2.profile-header, p.profile-body{
+    text-align: left;
+    margin: 0; 
+    border: 1px solid black;
+    float:left;}
 }
 
 

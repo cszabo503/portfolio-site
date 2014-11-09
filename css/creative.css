@@ -395,14 +395,12 @@ h2.profile-header{
   font-size: 1.5em;
   line-height: 1.3em;
   margin: .5em 0 .5em 0;
-  display: inline-block;
 }
 
 p.profile-body{
   margin-top: 1em;
   font-family: Georgia;
   line-height: 1.5em;
-  display: inline-block;
   /*margin: 2em 1em 0 1em;*/
 }
 
@@ -420,8 +418,12 @@ p.profile-body{
   h2.profile-header, p.profile-body{
     text-align: left;
     margin: 0; 
-    border: 1px solid black;
-    float:left;}
+    border: 1px solid black;}
+}
+
+@media only screen and (min-width: 64.063em){
+  .about .large-7{
+    width:65%;}
 }
 
 

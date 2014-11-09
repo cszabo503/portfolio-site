@@ -96,6 +96,11 @@ a:hover {
 
 }
 
+.wrapper-site-title{
+  float:left;
+  padding-top: .5em;
+}
+
 .site-nav {
   font-size: 0.750em;
   text-transform: uppercase;
@@ -320,6 +325,12 @@ article.post-content {
     margin: 0 auto;}
 }
 
+@media only screen and (min-width: 64.063em) {
+  p.clearing-caption{
+    max-width: 100%; 
+    margin: 0 auto;}
+}
+
 /* ---------------------------------------------- */
 /* Post Clearing Slideshow ---------------------- */
 /* ---------------------------------------------- */
@@ -344,6 +355,11 @@ article.post-content {
 
 .clearing-thumbs.clearing-feature {
   background: #000000;
+  float: none;
+}
+
+.clearing-thumbs li {
+  float: none;
 }
 
 .clearing-assembled .clearing-container .visible-img {

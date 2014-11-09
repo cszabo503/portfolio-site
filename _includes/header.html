@@ -5,7 +5,12 @@
     <div class="row">
 
        <!--  <a class="site-title-logo columns small-2 medium-1" href="{{ site.baseurl }}/"><img class="site-title-logo" src="/photos/logo-vector.png"/></a> -->
-        <a class="site-title columns small-10 medium-4 large-4" href="{{ site.baseurl }}/"><img class="site-title-logo" src="/photos/logo-vector.png"/>{{ site.title }}</a>
+        <a class="site-title columns small-10 medium-4 large-4" href="{{ site.baseurl }}/"><img class="site-title-logo" src="/photos/logo-vector.png"/>
+          <div class="wrapper-site-title">
+          {{ site.title }}
+          </div>
+        </a>
+        
       <nav class="site-nav columns small-12 medium-8 large-8">
         {% for page in site.pages %}
           {% if page.title %}

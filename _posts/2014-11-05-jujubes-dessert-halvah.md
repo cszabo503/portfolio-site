@@ -3,7 +3,7 @@ layout: post
 title:  jujubes dessert halvah
 date:   2014-11-05
 categories: school
-cover-photo: /photos/puppy.jpg
+cover-photo: photos/puppy.jpg
 ---
 
 

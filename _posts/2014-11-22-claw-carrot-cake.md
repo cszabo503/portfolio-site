@@ -3,7 +3,7 @@ layout: post
 title:  claw carrot cake
 date:   2014-11-22
 categories: work
-cover-photo: /photos/puppy.jpg
+cover-photo: photos/puppy.jpg
 ---
 
 

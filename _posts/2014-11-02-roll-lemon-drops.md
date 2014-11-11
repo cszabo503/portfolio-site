@@ -3,7 +3,7 @@ layout: post
 title:  roll lemon drops
 date:   2014-11-02
 categories: work
-cover-photo: /photos/puppy.jpg
+cover-photo: photos/puppy.jpg
 ---
 
 

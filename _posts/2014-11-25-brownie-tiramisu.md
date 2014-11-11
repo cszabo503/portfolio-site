@@ -3,7 +3,7 @@ layout: post
 title:  brownie tiramisu
 date:   2014-11-25
 categories: school
-cover-photo: /photos/puppy.jpg
+cover-photo: photos/puppy.jpg
 ---
 
 

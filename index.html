@@ -28,7 +28,7 @@ layout: default
   <ul id="container" class="js-isotope post-list small-block-grid-1 medium-block-grid-3 large-block-grid-4">
     {% for post in site.posts %}
       <li class="item {{post.categories}}">
-        <a class="post-link" href="{{ post.url }}"><img class="cover-photo" src="{{ post.cover-photo}}"/></a>
+        <a class="post-link" href="../{{ post.url }}"><img class="cover-photo" src="{{ post.cover-photo}}"/></a>
         
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

@@ -8,10 +8,12 @@ cover-photo: photos/kitten-7.jpg
 
 <div>
 <ul class="clearing-thumbs clearing-feature" data-clearing>
-  <li class="clearing-featured-img"><a href="photos/kitten-7.jpg"><img data-caption="1 of 4" src="photos/kitten-7.jpg"></a></li>
-  <li><a href="photos/puppy-1.jpg"><img data-caption="2 of 4" src="photos/puppy-1-th.jpg"></a></li>
-  <li><a href="photos/puppy-2.jpg"><img data-caption="3 of 4" src="photos/puppy-2-th.jpg"></a></li>
-  <li><a href="photos/puppy-3.jpg"><img data-caption="4 of 4" src="photos/puppy-3-th.jpg"></a></li>
+  
+  <li class="clearing-featured-img"><a href="{{ "/photos/kitten-7.jpg" | prepend: site.baseurl }}"><img data-caption="1 of 4" src="{{ "/photos/kitten-7.jpg" | prepend: site.baseurl }}"></a></li>
+  
+  <li><a href="{{ "/photos/puppy-1.jpg" | prepend: site.baseurl }}"><img data-caption="2 of 4" src="{{ "/photos/puppy-1.jpg" | prepend: site.baseurl }}"></a></li>
+  <li><a href="{{ "/photos/puppy-2.jpg" | prepend: site.baseurl }}"><img data-caption="3 of 4" src="{{ "/photos/puppy-2.jpg" | prepend: site.baseurl }}"></a></li>
+  <li><a href="{{ "/photos/puppy-3.jpg" | prepend: site.baseurl }}"><img data-caption="4 of 4" src="{{ "/photos/puppy-3.jpg" | prepend: site.baseurl }}"></a></li>
 </ul>
 </div>
 

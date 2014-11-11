@@ -7,7 +7,7 @@ permalink: about/
 
 <div class="about">
 	<div class="row">
-		<img class="profile columns small-12 medium-12 large-5" src="photos/profile-pic.jpg"/>
+		<img class="profile columns small-12 medium-12 large-5" src="{{ "/photos/profile-pic.jpg" | prepend: site.baseurl }}"/>
 		
 		<!-- <div class="row"> -->
 		<div class="columns small-12 medium-12 large-7">

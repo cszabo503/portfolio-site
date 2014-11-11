@@ -358,8 +358,8 @@ article.post-content {
   background: #000000;
 }
 
-img a:hover {
-  opacity: 50%;
+a img:hover {
+  opacity: .5;
 }
 
 
@@ -429,8 +429,15 @@ p.profile-body{
 @media only screen and (min-width: 64.063em){
   h2.profile-header, p.profile-body{
     text-align: left;
-    margin: 0; 
-    border: 1px solid black;}
+    margin: 0;
+    padding: 0;}
+}
+
+@media only screen and (min-width: 64.063em){
+  p.profile-body{
+    text-align: left;
+    margin: 0;
+    padding: .5em 0 0 0;}
 }
 
 @media only screen and (min-width: 64.063em){
@@ -445,6 +452,7 @@ p.profile-body{
 /* ---------------------------------------------- */
 
 .footer-col-wrapper {
+  margin-top: 2em;
   padding-bottom: 1.5em;
   padding-top: 1.5em;
   border-top: .1em solid black;

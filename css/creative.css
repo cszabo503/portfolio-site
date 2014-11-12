@@ -259,7 +259,8 @@ h1.page-heading {
 /*.school.w2 { width: 50%; }*/
 
 li.item {
-  padding: 2.5em 1em 0 1em;
+  padding: 2.5em 1em .5em 1em;
+  position: absolute;
 }
 
 #categories .button-group{
@@ -280,6 +281,8 @@ button {
   border-color: #000000;
   font-family: Judson;
   font-style: italic;
+  outline-style: none;
+  transition-property: white;
 }
 
 button:hover {

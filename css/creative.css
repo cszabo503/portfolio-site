@@ -259,7 +259,8 @@ h1.page-heading {
 /*.school.w2 { width: 50%; }*/
 
 li.item {
-  padding: 2.5em 1em 0 1em;
+  padding: 2.5em 1em .5em 1em;
+  position: absolute;
 }
 
 #categories .button-group{
@@ -279,6 +280,7 @@ button {
   font-family: Judson;
   font-style: italic;
   outline-style: none;
+<<<<<<< HEAD
   background-color: #ffffff;
   transition-property: white;
 }
@@ -296,6 +298,9 @@ button .transition-property{
 button.button {
   outline-style: none;
   background-color: none;
+=======
+  transition-property: white;
+>>>>>>> master
 }
 
 button:hover {
@@ -303,6 +308,7 @@ button:hover {
   border: none;
 }
 
+<<<<<<< HEAD
 button :active {
   border-style: none;
   outline-style: none;
@@ -310,6 +316,12 @@ button :active {
 }
 
 
+=======
+@media only screen and (min-width: 64.063em) {
+  .large-block-grid-4>li:nth-of-type(n) {
+    clear:both;}
+}
+>>>>>>> master
 
 /* ---------------------------------------------- */
 /* Posts ---------------------------------------- */

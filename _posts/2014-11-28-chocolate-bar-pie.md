@@ -9,11 +9,12 @@ cover-photo: photos/stylenook-header.jpg
 <div>
 <ul class="clearing-thumbs clearing-feature" data-clearing>
   
-  <li class="clearing-featured-img"><a href="{{ "/photos/stylenook-header.jpg" | prepend: site.baseurl }}"><img data-caption="1 of 4" src="{{ "/photos/stylenook-header.jpg" | prepend: site.baseurl }}"></a></li>
+  <li class="clearing-featured-img"><a href="{{ "/photos/stylenook-header.jpg" | prepend: site.baseurl }}"><img data-caption="1 of 5" src="{{ "/photos/stylenook-header.jpg" | prepend: site.baseurl }}"></a></li>
   
-  <li><a href="{{ "/photos/stylenook-logo.jpg" | prepend: site.baseurl }}"><img data-caption="2 of 4" src="{{ "/photos/stylenook-logo-th.jpg" | prepend: site.baseurl }}"></a></li>
-  <li><a href="{{ "/photos/stylenook-takeover.jpg" | prepend: site.baseurl }}"><img data-caption="3 of 4" src="{{ "/photos/stylenook-takeover-th.jpg" | prepend: site.baseurl }}"></a></li>
-  <li><a href="{{ "/photos/puppy-3.jpg" | prepend: site.baseurl }}"><img data-caption="4 of 4" src="{{ "/photos/puppy-3.jpg" | prepend: site.baseurl }}"></a></li>
+  <li><a href="{{ "/photos/stylenook-logo.jpg" | prepend: site.baseurl }}"><img data-caption="2 of 5" src="{{ "/photos/stylenook-logo-th.jpg" | prepend: site.baseurl }}"></a></li>
+  <li><a href="{{ "/photos/stylenook-takeover.jpg" | prepend: site.baseurl }}"><img data-caption="3 of 5" src="{{ "/photos/stylenook-takeover-th.jpg" | prepend: site.baseurl }}"></a></li>
+  <li><a href="{{ "/photos/stylenook-profile.jpg" | prepend: site.baseurl }}"><img data-caption="4 of 5" src="{{ "/photos/stylenook-profile-th.jpg" | prepend: site.baseurl }}"></a></li>
+  <li><a href="{{ "/photos/stylenook-looks.jpg" | prepend: site.baseurl }}"><img data-caption="5 of 5" src="{{ "/photos/stylenook-looks-th.jpg" | prepend: site.baseurl }}"></a></li>
 </ul>
 </div>
 

@@ -12,7 +12,11 @@ cover-photo: photos/stylenook-header.jpg
   <li class="clearing-featured-img"><a href="{{ "/photos/stylenook-header.jpg" | prepend: site.baseurl }}"><img data-caption="1 of 4" src="{{ "/photos/stylenook-header.jpg" | prepend: site.baseurl }}"></a></li>
   
   <li><a href="{{ "/photos/stylenook-logo.jpg" | prepend: site.baseurl }}"><img data-caption="2 of 4" src="{{ "/photos/stylenook-logo-th.jpg" | prepend: site.baseurl }}"></a></li>
+<<<<<<< HEAD
   <li><a href="{{ "/photos/puppy-2.jpg" | prepend: site.baseurl }}"><img data-caption="3 of 4" src="{{ "/photos/stylenook-logo-th.jpg" | prepend: site.baseurl }}"></a></li>
+=======
+  <li><a href="{{ "/photos/stylenook-takeover.jpg" | prepend: site.baseurl }}"><img data-caption="3 of 4" src="{{ "/photos/stylenook-takeover-th.jpg" | prepend: site.baseurl }}"></a></li>
+>>>>>>> master
   <li><a href="{{ "/photos/puppy-3.jpg" | prepend: site.baseurl }}"><img data-caption="4 of 4" src="{{ "/photos/puppy-3.jpg" | prepend: site.baseurl }}"></a></li>
 </ul>
 </div>

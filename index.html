@@ -25,27 +25,30 @@ layout: default
 
 
 <!-- <div id="containter">  --> 
-  <ul id="container" class="js-isotope post-list small-block-grid-1 medium-block-grid-3 large-block-grid-4">
-    {% for post in site.posts %}
-      <li class="item {{post.categories}}">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="cover-photo" src="{{ post.cover-photo}}"/></a>
-        
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+  <div>
+    <ul id="container" class="js-isotope post-list small-block-grid-1 medium-block-grid-3 large-block-grid-4">
+      {% for post in site.posts %}
+        <li class="item {{post.categories}}">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="cover-photo" src="{{ post.cover-photo}}"/></a>
+          
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
 
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         
-      </li>
-    {% endfor %}
-  </ul>
-<!-- </div> -->
+          
+        </li>
+      {% endfor %}
+    </ul>
+  <!-- </div> -->
+  </div>
+
 
 </div>
 
 <div>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>
 

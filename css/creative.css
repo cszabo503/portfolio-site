@@ -273,18 +273,40 @@ li.item {
 }
 
 button {
-  background-color: #ffffff;
-  transition: none;
   color: #000000;
   border-width: 2px;
   border-color: #000000;
   font-family: Judson;
   font-style: italic;
+  outline-style: none;
+  background-color: #ffffff;
+  transition-property: white;
+}
+
+
+.button {
+-webkit-transition-property: background-color none;
+}
+
+
+button .transition-property{
+  background-color: #ffffff;
+  }
+
+button.button {
+  outline-style: none;
+  background-color: none;
 }
 
 button:hover {
   background-color: #e3747a;
   border: none;
+}
+
+button :active {
+  border-style: none;
+  outline-style: none;
+  background-color: #000000;
 }
 
 

@@ -3,16 +3,16 @@ layout: post
 title:  cupcake tiramisu
 date:   2014-11-28
 categories: work
-cover-photo: photos/kitten-7.jpg
+cover-photo: photos/stylenook-header.jpg
 ---
 
 <div>
 <ul class="clearing-thumbs clearing-feature" data-clearing>
   
-  <li class="clearing-featured-img"><a href="{{ "/photos/kitten-7.jpg" | prepend: site.baseurl }}"><img data-caption="1 of 4" src="{{ "/photos/kitten-7.jpg" | prepend: site.baseurl }}"></a></li>
+  <li class="clearing-featured-img"><a href="{{ "/photos/stylenook-header.jpg" | prepend: site.baseurl }}"><img data-caption="1 of 4" src="{{ "/photos/stylenook-header.jpg" | prepend: site.baseurl }}"></a></li>
   
-  <li><a href="{{ "/photos/puppy-1.jpg" | prepend: site.baseurl }}"><img data-caption="2 of 4" src="{{ "/photos/puppy-1.jpg" | prepend: site.baseurl }}"></a></li>
-  <li><a href="{{ "/photos/puppy-2.jpg" | prepend: site.baseurl }}"><img data-caption="3 of 4" src="{{ "/photos/puppy-2.jpg" | prepend: site.baseurl }}"></a></li>
+  <li><a href="{{ "/photos/stylenook-logo.jpg" | prepend: site.baseurl }}"><img data-caption="2 of 4" src="{{ "/photos/stylenook-logo-th.jpg" | prepend: site.baseurl }}"></a></li>
+  <li><a href="{{ "/photos/stylenook-takeover.jpg" | prepend: site.baseurl }}"><img data-caption="3 of 4" src="{{ "/photos/stylenook-takeover-th.jpg" | prepend: site.baseurl }}"></a></li>
   <li><a href="{{ "/photos/puppy-3.jpg" | prepend: site.baseurl }}"><img data-caption="4 of 4" src="{{ "/photos/puppy-3.jpg" | prepend: site.baseurl }}"></a></li>
 </ul>
 </div>
